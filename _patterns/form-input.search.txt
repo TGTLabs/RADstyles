@@ -1,0 +1,1 @@
+Used only in the hero area, the scroll bar search should be used elsewhere.

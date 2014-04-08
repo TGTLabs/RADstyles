@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@import url('reset.css');
+@import url('patterns.css');
+
+/* ============================================================
+	Site specific styles
+============================================================ */
+body {
+	background-color: #f6f6f6;
+}
+header[role="banner"] {
+	color: #fff;
+	background: #48BADD;
+	background-image: -moz-linear-gradient(top, #52d, #25d);
+	margin: 0;
+	padding-top: 4em; /* 64px */
+	height: 25.629rem;
+	}
+	header[role="banner"] .headline,
+	header[role="banner"] .lede {
+		color: #fff;
+	}
+main[role="main"] {
+	background-color: #fff;
+	padding: 1em 0;
+}
+footer[role="contentinfo"] {
+	box-shadow: inset 0 2px #f0f0f0;
+	margin-top: 0;
+}
